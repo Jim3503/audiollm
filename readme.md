@@ -29,7 +29,7 @@ This repository is continuously updating🎉
 - **Meld**: Multimodal emotion dataset. MELD has more than 1400 dialogues and 13000 utterances from Friends TV series[[Link](https://affective-meld.github.io/)]
 - **VocalSound**: 21,024 crowdsourced recordings of laughter, sighs, coughs, throat clearing, sneezes, and sniffs from 3,365 unique subjects[[Link](https://sls.csail.mit.edu/downloads/vocalsound/)]
 - **Chat Benchmark**: Speech | Sound | Music | Mixed-Audio. [Link]
-- **MOSS dataset**: 合成数据集[[Link](https://huggingface.co/datasets/YeungNLP/moss-003-sft-data)]
+- **MOSS dataset**: Synthetic dataset[[Link](https://huggingface.co/datasets/YeungNLP/moss-003-sft-data)]
 - **Wenetspeech**: 22400 hours[[Link](https://wenet.org.cn/WenetSpeech/)]
 - **EMOBox**: Emotion-labeled dataset for speech. [[Link](https://github.com/emo-box/EmoBox)]
 - **AirBench**: [Link]
