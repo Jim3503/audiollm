@@ -21,18 +21,17 @@ This repository is continuously updating🎉
 <a id="Datasets"></a>
 ### Speech Interaction Datasets
 
-- **Librispeech**: 1000 hours of English read speech at 16kHz. [Link]
-- **Common Voice 15**: Multiple languages including English, Chinese, Cantonese, and French. [Link]
-- **Fleurs**: Focused on Chinese. [Link]
-- **Aishell2**: Available for Mac/iOS/Android. [Link]
-- **CoVoST2**: Multilingual dataset including English to multiple languages. [Link]
-- **Meld**: Multimodal emotion dataset. [Link]
-- **VocalSound**: [Link]
+- **Librispeech**: 1000 hours of English read speech at 16kHz. [[Link](https://www.openslr.org/12)]
+- **Common Voice 15**: 7335 Hours,60 Languages[[Link](https://paperswithcode.com/dataset/common-voice)]
+- **Fleurs**: 102 Languages,12 hours per language [[Link](https://huggingface.co/datasets/google/fleurs)]
+- **Aishell2**: 1000 hours of clean read-speech data from iOS,Available for Mac/iOS/Android. [Link]
+- **CoVoST2**: Multilingual dataset including English to multiple languages. [[Link](https://github.com/kaldi-asr/kaldi/tree/master/egs/aishell2)]
+- **Meld**: Multimodal emotion dataset. MELD has more than 1400 dialogues and 13000 utterances from Friends TV series[[Link](https://affective-meld.github.io/)]
+- **VocalSound**: 21,024 crowdsourced recordings of laughter, sighs, coughs, throat clearing, sneezes, and sniffs from 3,365 unique subjects[[Link](https://sls.csail.mit.edu/downloads/vocalsound/)]
 - **Chat Benchmark**: Speech | Sound | Music | Mixed-Audio. [Link]
-- **Synthetic Data**: MOSS dataset. [Link]
-- **Wenetspeech**: [Link]
-- **CommonVoice**: Another large-scale voice dataset. [Link]
-- **EMOBox**: Emotion-labeled dataset for speech. [Link]
+- **MOSS dataset**: 合成数据集[[Link](https://huggingface.co/datasets/YeungNLP/moss-003-sft-data)]
+- **Wenetspeech**: 22400 hours[[Link](https://wenet.org.cn/WenetSpeech/)]
+- **EMOBox**: Emotion-labeled dataset for speech. [[Link](https://github.com/emo-box/EmoBox)]
 - **AirBench**: [Link]
 - **SWAB**: [Link]
 
