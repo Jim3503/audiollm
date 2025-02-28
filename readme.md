@@ -12,14 +12,13 @@ This repository is continuously updating🎉
 
 ## Contents
 
-- Datasets
-- End-to-End Speech Interaction APIs
-- Pipelines
-- Emotion-Aware Interaction
-- Popular Datasets
+- [Datasets](#Datasets)
+- [End-to-End Speech Interaction APIs](#paper)
+- [Pipelines](#pipelines)
+- [Popular Datasets](#available-datasets)
 
 ## Datasets
-
+<a id="Datasets"></a>
 ### Speech Interaction Datasets
 
 - **Librispeech**: 1000 hours of English read speech at 16kHz. [Link]
@@ -41,6 +40,7 @@ This repository is continuously updating🎉
 - **Seed-TTS**: [Link]
 
 ## End-to-End Speech Interaction APIs
+<a id="paper"></a>
 
 ### [Qwen2-Audio](https://github.com/QwenLM/Qwen2-Audio)
 - Hugging Face Model: [Qwen2-Audio-7B-Instruct](https://huggingface.co/Qwen/Qwen2-Audio-7B-Instruct)
@@ -58,6 +58,7 @@ This repository is continuously updating🎉
 - Model: [Step-Audio-Chat](https://modelscope.cn/models/stepfun-ai/Step-Audio-Chat/files)
 
 ## Pipelines
+<a id="pipelines"></a>
 
 - **ASR-LLM-TTS**: Traditional pipeline combining ASR, LLM, and TTS.
 - **End-to-End Pipelines**: Non-autoregressive text-to-speech models with language models using connectionist temporal loss.
@@ -68,6 +69,7 @@ This repository is continuously updating🎉
 - Based on Mini-Omni's architecture, specifically fine-tuned for emotion control and function calling. -->
 
 ## Available Datasets
+<a id="available-datasets"></a>
 
 - **Librispeech**
 - **Common Voice 15**: English, Chinese, Cantonese, French
