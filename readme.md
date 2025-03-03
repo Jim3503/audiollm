@@ -15,9 +15,9 @@ This repository is continuously updating🎉
 - [Datasets](#Datasets)
 - [End-to-End Speech Interaction APIs](#paper)
 - [Pipelines](#pipelines)
-- [Popular Datasets](#available-datasets)
+<!-- - [Popular Datasets](#available-datasets) -->
 
-## Datasets
+<!-- ## Datasets
 <a id="Datasets"></a>
 ### Speech Interaction Datasets
 
@@ -36,7 +36,7 @@ This repository is continuously updating🎉
 - **SWAB**: [Link]
 
 ### In-house Test Datasets
-- **Seed-TTS**: [Link]
+- **Seed-TTS**: [Link] -->
 
 ## End-to-End Speech Interaction APIs
 <a id="paper"></a>
@@ -67,7 +67,7 @@ This repository is continuously updating🎉
 ### LUCY
 - Based on Mini-Omni's architecture, specifically fine-tuned for emotion control and function calling. -->
 
-## Available Datasets
+<!-- ## Available Datasets
 <a id="available-datasets"></a>
 
 - **Librispeech**
@@ -101,4 +101,118 @@ This repository is continuously updating🎉
 - **Trivia-Multichoice**
 - **Trivia-Singlechoice**
 - **Rlhf**
-- **QAassistant**
+- **QAassistant** -->
+
+
+# 语音数据集汇总
+<a id="Datasets"></a>
+
+## Librispeech[[Link](https://www.openslr.org/12)]
+
+| **属性**     | **内容**                                         |
+|--------------|--------------------------------------------------|
+| **语种**     | English                                          |
+| **语音类型** | 朗读、演讲                                       |
+| **形式类型** | 非对话，单声道                                   |
+| **总时长与数据集划分** | 总时长：约1000小时，分为 clean（较高质量）和 other（包含更多噪声）两类 |
+
+---
+
+## Common Voice[[Link](https://paperswithcode.com/dataset/common-voice)]
+
+| **属性**     | **内容**                                         |
+|--------------|--------------------------------------------------|
+| **语种**     | English、Chinese、French、German等120种语言    |
+| **语音类型** | 朗读，少量对话                                   |
+| **形式类型** | 非对话，单声道（16kHz），极少部分双声道          |
+| **总时长与数据集划分** | 总时长：约24000小时，英语占比最高（约 10,000+ 小时），中文约 3,000+ 小时 |
+
+---
+
+## Fleurs[[Link](https://huggingface.co/datasets/google/fleurs)]
+
+| **属性**     | **内容**                                         |
+|--------------|--------------------------------------------------|
+| **语种**     | English、Chinese、French、German等102种语言    |
+| **语音类型** | 新闻朗读                                         |
+| **形式类型** | 非对话，单声道（16kHz）                          |
+| **总时长与数据集划分** | 总时长：约12000小时，英语、中文、法语等每种语言300小时，大部分语种数据量严格均衡 |
+
+---
+
+## Aishell2[[Link](https://github.com/kaldi-asr/kaldi/tree/master/egs/aishell2)]
+
+| **属性**     | **内容**                                         |
+|--------------|--------------------------------------------------|
+| **语种**     | Chinese                                          |
+| **语音类型** | 朗读40%，自然对话60%                             |
+| **形式类型** | 多人对话，多声道，单人对话，单声道               |
+| **总时长与数据集划分** | 总时长：约1000小时，面向智能家居与移动端语音交互，跨设备录制，包含手机、平板、智能音箱、iOS、Android、Mac等 |
+
+---
+
+## CoVoST2[[Link](https://paperswithcode.com/dataset/covost2)]
+
+| **属性**     | **内容**                                         |
+|--------------|--------------------------------------------------|
+| **语种**     | 覆盖了21种语言到英语和从英语到15种语言的数据库，包括法语、德语、荷兰语、俄语、西班牙语、意大利语等 |
+| **语音类型** | 朗读                                             |
+| **形式类型** | 非对话，单声道（16kHz）                          |
+| **总时长与数据集划分** | 总时长：约2880小时，采用 Common Voice 数据库中的语音录音创建 |
+
+---
+
+## Meld[[Link](https://affective-meld.github.io/)]
+
+| **属性**     | **内容**                                         |
+|--------------|--------------------------------------------------|
+| **语种**     | 英语 |
+| **语音类型** | 电影中的对话                                             |
+| **形式类型** | 对话，单声道                          |
+| **总时长与数据集划分** | 总时长：约29小时，源自电视剧《老友记》，1,400 个对话和 13,000 个句子。这些对话涉及多个 speaker，对话中的每个句子都被标记为七种情绪中的其中一种： 愤怒、厌恶、悲伤、快乐、中立、惊讶和恐惧 |
+
+---
+
+## VocalSound[[Link](https://sls.csail.mit.edu/downloads/vocalsound/)]
+
+| **属性**     | **内容**                                         |
+|--------------|--------------------------------------------------|
+| **语种**     | 英语 |
+| **语音类型** | 非对话音频                                            |
+| **形式类型** | 非对话，单声道                          |
+| **总时长与数据集划分** | 音频长度的平均值是4.18秒，总时长：23小时，包含 3,365 名不同受试者的 21,024 条众包录音，包括笑声、叹气声、咳嗽声、清嗓子声、打喷嚏声和吸气声 |
+
+---
+
+## Wenetspeech[[Link](https://wenet.org.cn/WenetSpeech/)]
+
+| **属性**     | **内容**                                         |
+|--------------|--------------------------------------------------|
+| **语种**     | 中文 |
+| **语音类型** | 有声读物，现场解说，纪录片，戏剧，采访，新闻，阅读，讨论，综艺                                            |
+| **形式类型** | 单声道                          |
+| **总时长与数据集划分** | 总时长：10000+小时，数据均来自 YouTube 和 Podcast |
+
+---
+
+## EMOBox[[Link](https://github.com/emo-box/EmoBox)]
+
+| **属性**     | **内容**                                         |
+|--------------|--------------------------------------------------|
+| **语种**     | 涵盖14种不同的语言，包括12个英语数据集、3个普通话数据集，以及各2个法语、德语和意大利语数据集。此外，阿姆哈拉语、孟加拉语、希腊语、波斯语、波兰语、俄语、西班牙语、土耳其语和乌尔都语各有1个数据集 |
+| **语音类型** | 访谈、对话、演讲、辩论、朗读                                            |
+| **形式类型** | 单声道                          |
+| **总时长与数据集划分** | 总时长：294.4小时 |
+
+---
+
+## AirBench[[Link](https://github.com/emo-box/EmoBox)]
+
+| **属性**     | **内容**                                         |
+|--------------|--------------------------------------------------|
+| **语种**     | English, Chinese, Spanish, French, German, Russian, Japanese, Korean, Arabic, Persian, Indonesian, Hindi, Bengali |
+| **语音类型** |                                             |
+| **形式类型** |                           |
+| **总时长与数据集划分** |  |
+
+---
