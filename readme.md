@@ -228,7 +228,7 @@ This repository is continuously updating🎉
 
 ---
 
-## 11.Alimeeting[[Link](https://paperswithcode.com/dataset/alimeeting)]
+## 12.Alimeeting[[Link](https://paperswithcode.com/dataset/alimeeting)]
 
 | **属性**     | **内容**                                         |
 |--------------|--------------------------------------------------|
@@ -236,6 +236,17 @@ This repository is continuously updating🎉
 | **语音类型** | 对话                                            |
 | **形式类型** | 对话，多声道                          |
 | **总时长与数据集划分** | 120小时 |
+
+---
+
+## 13.Fisher English Training Speech[[Link](https://catalog.ldc.upenn.edu/LDC2004T19)]
+
+| **属性**     | **内容**                                         |
+|--------------|--------------------------------------------------|
+| **语种**     | English |
+| **语音类型** | 对话                                            |
+| **形式类型** | 对话，多声道                          |
+| **总时长与数据集划分** | 2000小时 |
 
 ---
 
