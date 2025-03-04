@@ -12,9 +12,9 @@ This repository is continuously updating🎉
 
 ## Contents
 
-- [Datasets](#Datasets)
 - [End-to-End Speech Interaction APIs](#paper)
 - [Pipelines](#pipelines)
+- [Datasets](#Datasets)
 <!-- - [Popular Datasets](#available-datasets) -->
 
 <!-- ## Datasets
@@ -249,5 +249,48 @@ This repository is continuously updating🎉
 | **总时长与数据集划分** | 2000小时 |
 
 ---
+
+## 14.VoiceAssistant-400K[[Link](https://huggingface.co/datasets/gpt-omni/VoiceAssistant-400K)]
+
+| **属性**     | **内容**                                         |
+|--------------|--------------------------------------------------|
+| **语种**     | English |
+| **语音类型** | 朗读单句                                           |
+| **形式类型** | 对话，单声道                          |
+| **总时长与数据集划分** | 总时长：190GB，使用GPT4O合成的数据集 |
+
+---
+## 15.VCTK[[Link](https://datashare.ed.ac.uk/download/DS_10283_3443.zip)]
+
+| **属性**     | **内容**                                         |
+|--------------|--------------------------------------------------|
+| **语种**     | English |
+| **语音类型** | 朗读                                            |
+| **形式类型** | 单声道，96kHz，24位                          |
+| **总时长与数据集划分** | 40～50小时，110名英语使用者使用不同口音发出的语音数据。每个演讲者朗读大约400个句子 |
+
+---
+## 16.Multilingual LibriSpeech[[Link](https://huggingface.co/datasets/facebook/multilingual_librispeech)]
+
+| **属性**     | **内容**                                         |
+|--------------|--------------------------------------------------|
+| **语种**     | English, German, Dutch, Spanish, French, Italian, Portuguese, Polish |
+| **语音类型** | 朗读                                            |
+| **形式类型** | 单声道                          |
+| **总时长与数据集划分** | English（44.5K hours），other languages（6K hours），数据集全部来源于LibriVox上的有声读物录音 |
+
+---
+## 17.Libritts[[Link](https://www.openslr.org/60)]
+
+| **属性**     | **内容**                                         |
+|--------------|--------------------------------------------------|
+| **语种**     | English |
+| **语音类型** | 朗读                                            |
+| **形式类型** | 单声道，24khz                          |
+| **总时长与数据集划分** | English（585 hours），均来自 LibriVox 上的有声读物录音。 |
+
+---
+
+
 
 
