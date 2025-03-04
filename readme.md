@@ -104,7 +104,7 @@ This repository is continuously updating🎉
 - **QAassistant** -->
 
 
-# 语音数据集汇总
+<!-- # 语音数据集汇总
 <a id="Datasets"></a>
 
 ## 1.Librispeech[[Link](https://www.openslr.org/12)]
@@ -289,8 +289,194 @@ This repository is continuously updating🎉
 | **形式类型** | 单声道，24khz                          |
 | **总时长与数据集划分** | English（585 hours），均来自 LibriVox 上的有声读物录音。 |
 
+--- -->
+# Speech Datasets Summary
+<a id="Datasets"></a>
+
+## 1. Librispeech [[Link](https://www.openslr.org/12)]
+
+| **Attribute**               | **Content**                                                                                      |
+|-----------------------------|--------------------------------------------------------------------------------------------------|
+| **Language**                | English                                                                                          |
+| **Speech Type**             | Reading, Lectures                                                                                |
+| **Format Type**             | Non-conversational, Mono-channel                                                                 |
+| **Total Duration & Split**  | Total duration: ~1000 hours; split into "clean" (high-quality) and "other" (contains more noise)   |
+
 ---
 
+## 2. Common Voice [[Link](https://paperswithcode.com/dataset/common-voice)]
+
+| **Attribute**               | **Content**                                                                                                                          |
+|-----------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
+| **Language**                | English, Chinese, French, German, and 120 languages in total                                                                           |
+| **Speech Type**             | Reading, with a small amount of conversational data                                                                                  |
+| **Format Type**             | Non-conversational, Mono-channel (16kHz); very few cases in stereo                                                                     |
+| **Total Duration & Split**  | Total duration: ~24,000 hours; English holds the highest share (~10,000+ hours), Chinese about 3,000+ hours                           |
+
+---
+
+## 3. Fleurs [[Link](https://huggingface.co/datasets/google/fleurs)]
+
+| **Attribute**               | **Content**                                                                                                                          |
+|-----------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
+| **Language**                | English, Chinese, French, German, and 102 languages in total                                                                           |
+| **Speech Type**             | News reading                                                                                                                         |
+| **Format Type**             | Non-conversational, Mono-channel (16kHz)                                                                                               |
+| **Total Duration & Split**  | Total duration: ~12,000 hours; for each language (e.g., English, Chinese, French) around 300 hours; most languages are strictly balanced |
+
+---
+
+## 4. Aishell2 [[Link](https://github.com/kaldi-asr/kaldi/tree/master/egs/aishell2)]
+
+| **Attribute**               | **Content**                                                                                                                          |
+|-----------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
+| **Language**                | Chinese                                                                                                                              |
+| **Speech Type**             | 40% Reading, 60% Natural Conversation                                                                                                |
+| **Format Type**             | Multi-person conversation (multi-channel) and single-person conversation (mono-channel)                                               |
+| **Total Duration & Split**  | Total duration: ~1000 hours; targeted for smart home and mobile speech interaction, recorded across devices (smartphones, tablets, smart speakers, iOS, Android, Mac, etc.) |
+
+---
+
+## 5. CoVoST2 [[Link](https://paperswithcode.com/dataset/covost2)]
+
+| **Attribute**               | **Content**                                                                                                                          |
+|-----------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
+| **Language**                | A database covering 21 languages to English and from English to 15 languages, including French, German, Dutch, Russian, Spanish, Italian, etc. |
+| **Speech Type**             | Reading                                                                                                                              |
+| **Format Type**             | Non-conversational, Mono-channel (16kHz)                                                                                               |
+| **Total Duration & Split**  | Total duration: ~2880 hours; created using recordings from the Common Voice database                                                   |
+
+---
+
+## 6. Meld [[Link](https://affective-meld.github.io/)]
+
+| **Attribute**               | **Content**                                                                                                                          |
+|-----------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
+| **Language**                | English                                                                                                                              |
+| **Speech Type**             | Conversations extracted from movies                                                                                                  |
+| **Format Type**             | Conversational, Mono-channel                                                                                                           |
+| **Total Duration & Split**  | Total duration: ~29 hours; sourced from the TV show "Friends", comprising 1,400 dialogues and 13,000 sentences. Each sentence is labeled with one of seven emotions: anger, disgust, sadness, happiness, neutral, surprise, and fear. |
+
+---
+
+## 7. VocalSound [[Link](https://sls.csail.mit.edu/downloads/vocalsound/)]
+
+| **Attribute**               | **Content**                                                                                                                          |
+|-----------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
+| **Language**                | English                                                                                                                              |
+| **Speech Type**             | Non-conversational audio                                                                                                               |
+| **Format Type**             | Non-conversational, Mono-channel                                                                                                       |
+| **Total Duration & Split**  | Average audio length: 4.18 seconds; Total duration: 23 hours; Includes 21,024 crowdsourced recordings from 3,365 subjects covering laughter, sighs, coughs, throat-clearing, sneezes, and sniffing sounds. |
+
+---
+
+## 8. Wenetspeech [[Link](https://wenet.org.cn/WenetSpeech/)]
+
+| **Attribute**               | **Content**                                                                                                                          |
+|-----------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
+| **Language**                | Chinese                                                                                                                              |
+| **Speech Type**             | Audiobooks, live commentary, documentaries, dramas, interviews, news, reading, discussions, and variety shows                         |
+| **Format Type**             | Mono-channel                                                                                                                         |
+| **Total Duration & Split**  | Total duration: 10,000+ hours; recordings are sourced from YouTube and Podcasts                                                        |
+
+---
+
+## 9. EMOBox [[Link](https://github.com/emo-box/EmoBox)]
+
+| **Attribute**               | **Content**                                                                                                                          |
+|-----------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
+| **Language**                | Covers 14 different languages, including 12 English datasets, 3 Mandarin datasets, 2 each for French, German, and Italian, and 1 each for Amharic, Bengali, Greek, Persian, Polish, Russian, Spanish, Turkish, and Urdu |
+| **Speech Type**             | Interviews, Conversations, Lectures, Debates, Readings                                                                               |
+| **Format Type**             | Mono-channel                                                                                                                         |
+| **Total Duration & Split**  | Total duration: 294.4 hours                                                                                                            |
+
+---
+
+## 10. AirBench [[Link](https://github.com/AIR-Bench/AIR-Bench)]
+
+| **Attribute**               | **Content**                                                                                                                          |
+|-----------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
+| **Language**                | English, Chinese, Spanish, French, German, Russian, Japanese, Korean, Arabic, Persian, Indonesian, Hindi, Bengali                     |
+| **Speech Type**             | (Information not provided)                                                                                                             |
+| **Format Type**             | (Information not provided)                                                                                                             |
+| **Total Duration & Split**  | (Information not provided)                                                                                                             |
+
+---
+
+## 11. Llama Questions [[Link](https://huggingface.co/datasets/fixie-ai/llama-questions)]
+
+| **Attribute**               | **Content**                                                                                                                          |
+|-----------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
+| **Language**                | English                                                                                                                              |
+| **Speech Type**             | Q&A                                                                                                                                    |
+| **Format Type**             | Conversational, Mono-channel                                                                                                           |
+| **Total Duration & Split**  | Each segment lasts 2–5 seconds                                                                                                         |
+
+---
+
+## 12. Alimeeting [[Link](https://paperswithcode.com/dataset/alimeeting)]
+
+| **Attribute**               | **Content**                                                                                                                          |
+|-----------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
+| **Language**                | Chinese                                                                                                                              |
+| **Speech Type**             | Conversation                                                                                                                         |
+| **Format Type**             | Conversational, Multi-channel                                                                                                          |
+| **Total Duration & Split**  | 120 hours                                                                                                                              |
+
+---
+
+## 13. Fisher English Training Speech [[Link](https://catalog.ldc.upenn.edu/LDC2004T19)]
+
+| **Attribute**               | **Content**                                                                                                                          |
+|-----------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
+| **Language**                | English                                                                                                                              |
+| **Speech Type**             | Conversation                                                                                                                         |
+| **Format Type**             | Conversational, Multi-channel                                                                                                          |
+| **Total Duration & Split**  | 2000 hours                                                                                                                             |
+
+---
+
+## 14. VoiceAssistant-400K [[Link](https://huggingface.co/datasets/gpt-omni/VoiceAssistant-400K)]
+
+| **Attribute**               | **Content**                                                                                                                          |
+|-----------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
+| **Language**                | English                                                                                                                              |
+| **Speech Type**             | Single-sentence reading                                                                                                                |
+| **Format Type**             | Conversational, Mono-channel                                                                                                           |
+| **Total Duration & Split**  | Total size: 190GB; synthesized using GPT-4O data                                                                                       |
+
+---
+
+## 15. VCTK [[Link](https://datashare.ed.ac.uk/download/DS_10283_3443.zip)]
+
+| **Attribute**               | **Content**                                                                                                                          |
+|-----------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
+| **Language**                | English                                                                                                                              |
+| **Speech Type**             | Reading                                                                                                                              |
+| **Format Type**             | Mono-channel, 96kHz, 24-bit                                                                                                             |
+| **Total Duration & Split**  | 40–50 hours; recorded from 110 speakers with various accents; each speaker reads approximately 400 sentences                          |
+
+---
+
+## 16. Multilingual LibriSpeech [[Link](https://huggingface.co/datasets/facebook/multilingual_librispeech)]
+
+| **Attribute**               | **Content**                                                                                                                          |
+|-----------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
+| **Language**                | English, German, Dutch, Spanish, French, Italian, Portuguese, Polish                                                                   |
+| **Speech Type**             | Reading                                                                                                                              |
+| **Format Type**             | Mono-channel                                                                                                                         |
+| **Total Duration & Split**  | English: 44.5K hours; other languages: 6K hours; all recordings sourced from LibriVox audiobooks                                        |
+
+---
+
+## 17. Libritts [[Link](https://www.openslr.org/60)]
+
+| **Attribute**               | **Content**                                                                                                                          |
+|-----------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
+| **Language**                | English                                                                                                                              |
+| **Speech Type**             | Reading                                                                                                                              |
+| **Format Type**             | Mono-channel, 24kHz                                                                                                                    |
+| **Total Duration & Split**  | English: 585 hours; all sourced from LibriVox audiobooks                                                                               |
 
 
 
