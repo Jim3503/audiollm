@@ -213,7 +213,7 @@ This repository is continuously updating🎉
 | **语种**     | English, Chinese, Spanish, French, German, Russian, Japanese, Korean, Arabic, Persian, Indonesian, Hindi, Bengali |
 | **语音类型** |  Human speech, Natural sounds, Music                                            |
 | **形式类型** |                           |
-| **总时长与数据集划分** | AIR-Bench_24.05 版本共包含 69 个数据集，覆盖 9 个领域（例如 Wiki、Web、新闻、医疗、法律、金融、ArXiv、图书、科学）和 13 种语种。测试数据由大语言模型自动生成，语料库经过裁剪（约 100 万个文档），并划分为开发集和测试集。｜
+| **总时长与数据集划分** | AIR-Bench_24.05 版本共包含 69 个数据集，覆盖 9 个领域（例如 Wiki、Web、新闻、医疗、法律、金融、ArXiv、图书、科学）和 13 种语种。测试数据由大语言模型自动生成，语料库经过裁剪（约 100 万个文档），并划分为开发集和测试集。 |
 
 ---
 
